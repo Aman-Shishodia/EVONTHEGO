@@ -229,10 +229,48 @@ nav a:hover{
     overflow: hidden;
 }
 
+#location-page10{
+    margin: auto;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+#location-page10 h3{
+    margin: 3vw 0;
+    margin-left: 15%;
+    font-size: 24px ;
+    font-weight: 500;
+}
+
+#location-page10 button{
+    border: 1px solid #00CC99;
+    background-color: #00CC99;
+    font-size: 1.5vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 1vw 4vw;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 2.5vw 0;
+    margin-left: 15%;
+}
+
+#location-page10 button:hover{
+    background-color: #fff;
+    color: green;
+    border: 1px solid #00CC99;
+}
+
+#location-page10 iframe{
+    width: 70%;
+    margin: auto;
+    margin-left: 15%;
+}
 
 #location-page1{
     /* border: 2px solid red; */
     height: 100vh;
+    display: none;
     width: 100vw;
     position: relative;
 }
@@ -289,6 +327,12 @@ nav a:hover{
     text-transform: capitalize;
 }
 
+#location nav a{
+    color: black !important;
+}
+
+
+
 #status1{
     width: 10px;
     display: inline-block;
@@ -340,6 +384,14 @@ nav a:hover{
     object-fit: cover;
 }
 
+
+footer{
+    display: flex;
+    padding: 3vw;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid black;
+}
 
 
 

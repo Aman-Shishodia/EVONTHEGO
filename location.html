@@ -17,7 +17,7 @@
         <a href="./index.html">Home</a>
         <a href="./about.html">About</a>
         <a href="./knowledge.html">Knowledge</a>
-      </nav>
+    </nav>
       <div id="location-page1">
         <img src="./assests/pexels-kindelmedia-9800029.jpg" alt="" />
         <div id="page1-text">
@@ -27,8 +27,19 @@
           </div>
         </div>
       </div>
-        <button id="location-btn" onclick="getLocation()">Request a location</button>
-      <div id="demo"></div>
+      <div id="location-page10">
+          <h3>You are here ...</h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3502.1096713701677!2d77.3725670755006!3d28.626474975668067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDM3JzM1LjMiTiA3N8KwMjInMzAuNSJF!5e0!3m2!1sen!2sin!4v1717305636880!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <button id="btn" onclick="Locations()">See nearby locations</button>
+      </div>
       <div id="location-page2">
         <div id="location-container">
           <div id="location-left">
@@ -37,6 +48,7 @@
               EESL Electronic City Metro Station Electronic City , Metro Station
               parking gate no.2, Noida - 201301
             </p>
+            <p>Distance : 9km</p>
             <p>Status : <span id="status1"></span></p>
           </div>
           <div id="location-right">
@@ -58,6 +70,7 @@
               EESL H-Block Market, Haldiram H Block market, Haldiram, Car
               parking , Sector - 63 , Noida - 201301
             </p>
+            <p>Distance : 12km</p>
             <p>Status : <span id="status1"></span></p>
           </div>
           <div id="location-right">
@@ -79,6 +92,7 @@
               EESL Tata Advance Systems Noida Near Tata Advance Systems, sector-
               59
             </p>
+            <p>Distance : 14km</p>
             <p>Status : <span id="status2"></span></p>
           </div>
           <div id="location-right">
@@ -97,6 +111,7 @@
           <div id="location-left">
             <h3>Sector 58</h3>
             <p>EESL Pachaiyappa Opp Sasta Sundar Hospital Sector 58 Noida</p>
+            <p>Distance : 21km</p>
             <p>Status : <span id="status1"></span></p>
           </div>
           <div id="location-right">
@@ -118,6 +133,7 @@
               EESL Hexagon Sector 65 Noida In front of Hexagon pvt ltd,
               sector-65,
             </p>
+            <p>Distance : 29km</p>
             <p>Status : <span id="status1"></span></p>
           </div>
           <div id="location-right">
@@ -133,37 +149,16 @@
           </div>
         </div>
       </div>
-      <div id="page4">
-        <img src="./assests/photo-1707758283344-28fcbe00be37.avif" alt="" />
-        <div id="page4-content">
-          <div id="page4-upper">
-            <h1>get in touch</h1>
-          </div>
-          <div id="page4-lower">
-            <div id="content1">
-              <h2>Mailing Address</h2>
-              <p>123 Anywhere St., Any City</p>
+   
+      <footer>
+        <div> <h2>Mailing Address</h2>
+          <p>123 Anywhere St., Any City</p>
 
-              <p>State, Country 12345</p>
-            </div>
-            <div id="content1">
-              <h2>Email Address</h2>
-              <p>hello@evonthego.com</p>
-            </div>
-            <div id="content1">
-              <h2>Phone Number</h2>
-              <p>123-456-789</p>
-            </div>
-            <div id="content1">
-              <h2>Socials</h2>
-              <p>@evonthego</p>
-            </div>
-          </div>
-        </div>
-      </div>
+           <p>State, Country 12345</p></div>
+       <div> EVONTHEGO All copyright claimed</div>
+
+      </footer>
     </div>
   </body>
-  <script src="./script2.js"></script>
-
-  
+  <script src="./script.js"></script>
 </html>
